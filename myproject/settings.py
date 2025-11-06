@@ -30,6 +30,9 @@ import os
 import dj_database_url
 
 ALLOWED_HOSTS = ['*']  # (You can later change * to your Railway URL)
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-0e73c.up.railway.app',
+]
 
 
 # Application definition
